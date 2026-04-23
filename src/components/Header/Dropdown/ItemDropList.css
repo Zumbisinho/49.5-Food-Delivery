@@ -1,0 +1,134 @@
+.DL-item{
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: center;
+}
+.DL-item img{
+    aspect-ratio: 1;
+    height: 64px;
+    margin-right: 12px;
+}
+.DL-item-info h2{
+    font-weight: normal;
+    margin: 0;
+    font-size: 1rem;
+}
+.DL-item-info p{
+    font-weight: normal;
+    margin: 0;
+    font-size: 1rem;
+}
+.DL-controls{
+    margin: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+}
+.DL-controls p {
+    margin: 0;
+}.DL-controls button{
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+    border-style: none;
+    font-weight: bold;
+    font-size: 2rem;
+    transition: all 0.1s ease;
+    opacity: 0.6;
+    
+}
+.DL-count{
+    margin: 0px 12px !important;
+    font-weight: bold;
+    font-size: 1.2rem;
+    opacity: 0.6;
+}
+.DL-controls button img{
+    aspect-ratio: 1;
+    height: 32px;
+}
+.DL-delete{
+    margin-left: 12px;
+}
+.DL-controls button:hover{
+    transform: scale(1.2);
+}
+.DL-more{
+    font-size: 3rem;
+    font-weight: normal;
+    margin: 0px;
+    line-height: 12px;
+    transform: translateY(-12px);
+}.DL-extra{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.DL-extra p:not(.DL-total){
+    margin: 0;
+    opacity: 0.6;
+    font-size: 1rem;
+}
+.DL-extra .DL-subtotal{
+    font-weight: bold;
+    opacity: 0.8;
+}
+.DL-free{
+    opacity: 1 !important;
+    font-weight: bold;
+    color: limegreen;
+}
+.DL-extra:has(.DL-total){
+    margin-top: 16px;
+}
+.DL-total{
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 0;
+}
+.DL-total-num{
+    font-size: 1.25rem !important;
+    color: red;
+    opacity: 1 !important;
+    font-weight: bold;
+}
+.DL-finalize{
+    display: flex;
+    margin-top: 12px;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins';
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-style: none;
+    padding: 12px 32px;
+    background-color: red;
+    border-radius: 16px;
+    color: white;
+    transition: all 0.2s ease;
+    margin-bottom: 8px;
+}
+.DL-finalize img{
+    aspect-ratio: 1;
+    filter: invert(1);
+    height: 20px;
+    margin-right: 8px;
+    
+}
+.DL-finalize:hover:not(:disabled){
+    transform: scale(1.1);
+}
+.DL-title {
+    font-size: 1.2rem;
+    font-weight: normal;
+    margin: 6px 0px !important;
+    margin-bottom: 4px !important;
+    width: 100%;
+    text-align: left;
+}
+
+.DL-finalize:disabled{
+    background-color: rgb(90, 0, 0) !important;
+    color: #bbb !important;
+}

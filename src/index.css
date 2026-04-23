@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'NowFont';
+  src: url('./assets/NowFont.ttf') format('truetype');
+}
+:root{
+  --dark-bg: #0F0F0F;
+  --text-color: #212121;
+  --main-color: #ddb501;
+
+}
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+body {
+    background-color: #fbfbfb;
+    margin: 0;
+}
+
